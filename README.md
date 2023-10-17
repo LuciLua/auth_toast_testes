@@ -2,6 +2,7 @@
 ## frontend
 - react
 - next
+- toast
 
 ## backend
 - express
