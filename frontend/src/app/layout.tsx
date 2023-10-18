@@ -1,4 +1,6 @@
 import "../styles/globals.css"
+import { ToastClassName, ToastContainer, ToastOptions, toast } from 'react-toastify';
+
 
 export default function root_layout({ children }) {
     return (
@@ -11,6 +13,7 @@ export default function root_layout({ children }) {
             <body>
                 <div className="container">
                     <div className="content">
+                        <ToastContainer />
                         {children}
                     </div>
                 </div>

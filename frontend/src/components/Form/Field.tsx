@@ -1,5 +1,5 @@
 import { HTMLInputTypeAttribute } from "react";
-import styles from "./field.module.css"
+import styles from "./Field.module.scss"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
